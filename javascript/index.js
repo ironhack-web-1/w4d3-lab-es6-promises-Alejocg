@@ -111,7 +111,8 @@ obtainInstruction('steak', 0)
 
 
                      .then( () => {
-                      document.querySelector("#steak").innerHTML += `<li>stake is ready!!!!!</li>`;
+                      document.querySelector("#steak").innerHTML += `<li>steak is ready!!!!!</li>`;
+                      document.querySelector("#steakImg").removeAttribute("hidden");
                          })
 
      
